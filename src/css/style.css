@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-bg-principal: #000000;
+    --cor-texto-principal: #f6f6f6;
+    --cor-destaque: #22d4fd;
+    --cor-hover-sms: #272727;
+
+    --font-titulo: 'Krona One', sans-serif;
+    --font-texto: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--cor-bg-principal);
+}
+
+main {
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 61.5rem;
+}
+
+.lado-esquerdo__titulo {
+    font-family: var(--font-titulo);
+    color: var(--cor-texto-principal); 
+    font-size: 3.6rem;
+    line-height: 4.5rem;
+}
+
+.lado-esquerdo__titulo-destaque {
+    color: var(--cor-destaque);
+}
+
+.lado-esquerdo__texto {
+    font-family: var(--font-texto);
+    color: var(--cor-texto-principal);
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+}
+
+.lado-esquerdo__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.lado-esquerdo__buttons__title {
+    font-family: var(--font-titulo);
+    color: var(--cor-texto-principal);
+    font-size: 2.4rem;
+}
+
+.lado-esquerdo__buttons__link {
+    width: 37.8rem;
+    text-decoration: none;
+    background-color: var(--cor-bg-principal);
+    font-family: var(--font-texto);
+    color: var(--cor-texto-principal);
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 2.15rem 0;
+    border: var(--cor-destaque) solid 2px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.lado-esquerdo__buttons__link:hover {
+    color: var(--cor-destaque);
+    background-color: var(--cor-hover-sms);
+}
+
+.lado-direito {
+    width: 48.8rem;
+    display: flex;
+}
+
+.lado-direito__imagem {
+    width: 100%;
+}

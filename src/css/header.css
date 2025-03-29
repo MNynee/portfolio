@@ -1,0 +1,30 @@
+.cabecalho__menu-principal {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 8%;
+}
+
+.cabecalho__menu-principal__link {
+    height: 50px;
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: var(--font-texto);
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: var(--cor-destaque);
+}
+
+.cabecalho__menu-principal__link:hover {
+    color: var(--cor-texto-principal);
+}
+
+.cabecalho__menu-principal__atual {
+    color: var(--cor-texto-principal);
+    border-bottom: var(--cor-destaque) solid 1px;
+}
