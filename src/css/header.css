@@ -28,3 +28,20 @@
     color: var(--cor-texto-principal);
     border-bottom: var(--cor-destaque) solid 1px;
 }
+
+/*-------------------------------------RESPONSIVO---------------------------------------------*/
+
+@media(max-width: 800px) {
+    .cabecalho {
+        padding: 10% 10% 0 10%;
+    }
+
+    .cabecalho__menu-principal {
+        justify-content: center;
+        height: 50px;
+    }
+}
+
+@media(max-width: 400px) {
+
+}

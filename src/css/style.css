@@ -37,7 +37,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    width: 61.5rem;
+    width: 50%;
 }
 
 .lado-esquerdo__titulo {
@@ -73,7 +73,7 @@ main {
 }
 
 .lado-esquerdo__buttons__link {
-    width: 37.8rem;
+    width: 80%;
     text-decoration: none;
     background-color: var(--cor-bg-principal);
     font-family: var(--font-texto);
@@ -88,18 +88,48 @@ main {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    transition: all 0.5s;
 }
 
 .lado-esquerdo__buttons__link:hover {
     color: var(--cor-destaque);
     background-color: var(--cor-hover-sms);
+    width: 90%;
 }
 
 .lado-direito {
-    width: 48.8rem;
+    width: 40%;
     display: flex;
 }
 
 .lado-direito__imagem {
     width: 100%;
+}
+
+/*----------------------------------------RESPONSIVO--------------------------------------------*/
+
+@media(max-width: 800px){
+    html {  
+        font-size: 50%;
+    }
+
+    main {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10% 5%;
+    }
+
+    .lado-esquerdo {
+        width: 90%;
+    }
+
+    .lado-direito {
+        width: 50%;
+    }
+}
+
+@media(max-width: 400px) {
+    html {  
+        font-size: 40%;
+    }
 }

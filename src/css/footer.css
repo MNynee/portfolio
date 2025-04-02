@@ -17,3 +17,14 @@
     text-decoration: none;
     color: var(--cor-texto-principal);
 }
+
+
+@media(max-width: 800px) {
+    .rodape {
+        padding: 10%;
+    }
+
+    .rodape__texto {
+        text-align: center;
+    }
+}
