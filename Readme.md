@@ -8,6 +8,8 @@
 
 * CSS
 
+* FLEXBOX
+
 ## Feito por:
 
 ### MNynee (Matheus Faustino)
