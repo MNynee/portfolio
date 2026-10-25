@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+  --color-main-bg: #0D0D0F;
+  --color-main-title: #FFFFFF;
+  --color-main-text: #E4E2E1;
+  --color-secondary-text: #969497;
+  --color-button-text: #15100E;
+  --color-button-border: #262628;
+  --color-highlight: #FF7746;
+  --color-divider: #202023;
+
+  --font-fraunces: 'Fraunces', serif;
+  --font-hanken-grotesk: 'Hanken Grotesk', sans-serif;
+}
