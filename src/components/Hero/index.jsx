@@ -1,4 +1,5 @@
 import Button from "../Button";
+import ProfileDetail from "../profileDetails";
 
 const Hero = () => {
   return (
@@ -25,6 +26,11 @@ const Hero = () => {
           />
         </div>
       </div>
+      <ul className="flex justify-between items-center gap-6">
+        <ProfileDetail title="LOCALISATION" text="Royan, France" />
+        <ProfileDetail title="FORMATION" text="Intégrateur Web" />
+        <ProfileDetail title="DISPONIBILITÉ" text="Immédiate" />
+      </ul>
     </section>
   );
 };
