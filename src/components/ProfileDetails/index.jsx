@@ -1,9 +1,9 @@
 
 const ProfileDetail = ({ title, text }) => {
   return (
-    <li className="w-full px-4 border-t-1 border-divider flex flex-col justify-center items-center gap-1">
+    <li className="w-full py-4 border-t-1 border-divider flex flex-col justify-center items-center gap-1">
         <span className="text-secondary-text font-semibold text-[13px]">{title}</span>
-        <p>{text}</p>
+        <p className="font-medium text-[18px]">{text}</p>
     </li>
   )
 }
